@@ -1,0 +1,39 @@
+header{ 
+    background-color: rgba(159, 215, 215, 0.731);
+    border-top-right-radius: 38%;
+}
+main{
+    background-color: rgba(85, 207, 207, 0.263);
+    border-end-end-radius: 23%;
+    margin-bottom: 67px;
+    margin-left: 12px;
+    text-align: center;
+}
+footer{ 
+    background-color: rgba(9, 255, 0, 0.671);
+     border: solid;
+}
+button{
+    color: brown;
+}
+.title{
+     color: blue ;
+     text-align: center;
+}
+form{
+    size: 68cqmax;
+    text-align: center;
+}
+.consigne{
+    color: rgba(87, 9, 243, 0.893);
+    background-color: rgba(240, 255, 255, 0.486);
+    float:center ;
+}
+div{
+    size: 25px;
+}
+
+option:hover{
+    size: 27px;
+    background-color: rgba(32, 255, 84, 0.671);
+}

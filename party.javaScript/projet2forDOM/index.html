@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBestCalculet</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="man.js">
+</head>
+<body>
+    <header>
+        <header class="post header">
+        <h1 class="title">the best homework !</h1>
+    </header>
+
+         <h1><strong>calculer</strong></h1> 
+
+    </header>
+    <main> 
+
+
+
+        <div class="caculatrice">
+        <p class="infos"> </p>              
+        <form name="form">
+            <div class="resultat">    
+            <input type="text" id="fenetre" name="fenetre">
+            </div>
+            <div class="buttons"> 
+                    <div class="row">
+                    <input type="button" name="v7" value="7" onclick="val(v7.value)">
+                    <input type="button" name="v8" value="8" onclick="val(v8.value)">
+                    <input type="button" name="v9" value="9" onclick="val(v9.value)">
+                    <input type="button" name="plus" value="+" onclick="val(plus.value)">
+                </div>
+
+                <div class="row">
+                    <input type="button" name="v4" value="4" onclick="val(v4.value)">
+                    <input type="button" name="v5" value="5" onclick="val(v5.value)">
+                    <input type="button" name="v6" value="6" onclick="val(v6.value)">
+                    <input type="button" name="moins" value="-" onclick="val(moins.value)">
+                </div>
+
+                <div class="row">
+                    <input type="button" name="v1" value="1" onclick="val(v1.value)">
+                    <input type="button" name="v2" value="2" onclick="val(v2.value)">
+                    <input type="button" name="v3" value="3" onclick="val(v3.value)">
+                    <input type="button" name="mult" value="*" onclick="val(mult.value)">
+                </div>
+
+                <div class="row">
+                    <input type="button" name="v0" value="0" onclick="val(v0.value)">
+                    <input type="button" name="dot" value="8" onclick="val(dot.value)">
+                    <input type="button" name="div" value="/" onclick="val(div.value)">
+                    <input type="button" name="calculer" value="=" onclick=" calculer();">
+                </div>
+                
+                    <input type="button"  value="suppr" name="reset" onclick="suppr">
+                
+                </div>
+            </div>
+        </form>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="man.js"></script>
+</body>
+</html>

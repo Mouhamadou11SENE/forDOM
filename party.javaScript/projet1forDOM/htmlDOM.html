@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projet1DOM</title>
+    <link rel="stylesheet" href="styleDOM.css">
+</head>
+<body>
+<header>
+<div class="post header">
+    <h1 class="title" > <strong> testez votre connaissance ! <br> footbal</strong></h1>
+</div>
+</header>
+<main>
+    <section>
+ <h2 class="instructions"><strong>Ne reflechissez pas trop en repondant ces questions ce n est que le debut du commencement! <br>niveau :easy</strong></h2>
+   <h2 class="consigne">DONNER LA BONNE REPONSE  !</h2>
+
+    <br />
+
+   <div class="quiz" id="firstquiz">
+    <h1 name="quiz2">LE MEILLEUR JOUEUR EN 2024 EST </h1>
+    <form action="input"> 
+        <select name="reponse" id="joueur"> 
+        
+        <option value1="MESSI" onclick="alert('score: 33%') "> MESSI</option> 
+        <option value3="NEYMAR" onclick="alert('FALSSE')"> NEYMAR</option> 
+        <option value3="CR7" onclick="alert('FALSE ')"> CR7</option>   
+  
+</select>
+
+    </form>
+</section>
+   </div>
+   <section>
+    <h2 class="instructions"><strong> Passez en vitesse superrieur ! <br>niveau :medium</strong></h2></section>
+    <h2 class="consigne"> DONNER LA BONNE REPONSE !</h2>
+
+    <br />
+
+   <div class="quiz" id="secondquiz">
+    <h1 name="quiz2"> ORIGINE DE MESSI ?</h1>
+    <form action="input"> 
+        <select name="pays" id="origine"> 
+        
+        <option value1="senegal" onclick="alert('FALSE ')"> senegal</option> 
+        <option value3="argentille" onclick="  alert('score: 33%') "> argentille</option> 
+        <option value3="france" onclick="alert('FALSE ')"> france</option>   
+    
+    </select>
+    </form>
+
+   </div>
+</section>
+   <h2 class="instructions"><strong>Il est temps de se salir les mains! <br>niveau :hard</strong></h2>
+   <h2 class="consigne">DONNER LA BONNE REPONSE !</h2>
+
+   <br />
+
+    <div class="quiz" id="thirdquiz">
+        <h1 name="quiz2"> CLUB DE  MESSI  EN 2024 EST</h1>
+        <form action="input"> 
+            <select name="pays" id="origine"> 
+            
+            <option value1=" fcb"  onclick="alert('FALSE ')"> fcb</option> 
+            <option value3="psg"  onclick="alert('FALSE ')"> psg</option> 
+            <option value3="al hillal"  onclick="alert('score : 33%')"> al hillal</option>   
+        
+        </select>
+        </form>
+        
+       
+
+   </div>
+</section>
+</main>
+
+<br />
+
+<footer> 
+    <div>
+        <button id="note" onclick= "alert('votre score total est de de : 66%')"> soumettre</button>
+    </div>
+    </footer>
+ <script src="forDOM.JS"> 
+   
+ </script>
+</body>
+</html>
